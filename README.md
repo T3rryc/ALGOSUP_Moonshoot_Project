@@ -1,5 +1,6 @@
 # SaltyProject
 Moonshot Project Algosup
+
 VR technology is one the most developing sectors over all, even though this technology existed for a long time ago.
 Some games in VR adapted some kind of game like shooter, simulation, rhythm game and even open world.
 But few VR games adapted actually fighting and platformer games.
