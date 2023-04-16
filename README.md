@@ -11,6 +11,20 @@ Make a radio with custom features and the possibility for the customer to make t
 The customers create the content of the radio itself without any copyright and
 listen to some music requested by other users.
 In the nutshell, the main idea is creating a radio generate by an AI.
+Recently, [Futuri](https://futurimedia.com/) company has the world’s first localized radio content powered entirely by artificial intelligence, based with model of GTP 3.5, It's call [radioGPT](https://futurimedia.com/radiogpt/).
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
