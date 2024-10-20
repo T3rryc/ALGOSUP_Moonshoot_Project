@@ -24,6 +24,7 @@ ASD is a neurological disorder. It means something that seems obvious to many pe
 
 ### Why Remora?
 (The name is not definitive and can be changed)
+
 The remora is a "copilot" fish who is usually attached on bigger animals and even takes care of their pest. This is a good metaphor for what the application does, an assistance that was designed to help ASD people.
 And also makes a reference to the narrow focus ASD people usually have on very specific topics like animals which is a common topic for ASD.
 
