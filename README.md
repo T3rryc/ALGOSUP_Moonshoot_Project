@@ -25,11 +25,11 @@ ASD is a neurological disorder. It means something that seems obvious to many pe
 ### Why Remora?
 (The name is not definitive and can be changed)
 
-The remora is a "copilot" fish who is usually attached on bigger animals and even takes care of their pest. This is a good metaphor for what the application does, an assistance that was designed to help ASD people.
+The remora is a "copilot" fish who is usually attached on bigger animals and even rid of parasites. This is a good metaphor for what the application does, an assistance that was designed to help ASD people.
 And also makes a reference to the narrow focus ASD people usually have on very specific topics like animals which is a common topic for ASD.
 
 ### It's exist a similar project?
-An application that involves an AI to help ASD with social interaction doesn't already exist at this date.
+An application that involves an AI to help ASD with social interaction doesn't already exist so far.
 
 ### What does the software look like?
 To make a parallel, this project looks like [Grammarly](https://www.grammarly.com/), an AI who fixes grammatical and orthographic mistakes on any edited text file.
