@@ -1,0 +1,130 @@
+# Unity generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Unity Cache Server files
+/[Cc]ache/
+/[Ll]ibrary/Artifacts/
+
+# Unity Asset Store tools
+/[Aa]ssets/AssetStoreTools*
+
+# Unity Addressable Assets
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/
+# Unity Addressables
+/[Aa]ssets/AddressableAssetsData/
+
+# Unity Collaborate files
+/[Pp]roject[Ss]ettings/CollaborateSnapshot/
+# Unity Collaborate Backups
+/[Pp]roject[Ss]ettings/CollaborateSnapshot/
+
+# Unity Shader Cache
+/[Ll]ibrary/ShaderCache/
+
+# Unity Plastic SCM files
+/.plastic/
+
+# Visual Studio / MonoDevelop generated files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Crash reports
+*.stacktrace
+
+# Unity auto-generated files
+*.generated.cs
+
+# Cache files
+*.cache
+
+# Exclude LightmapSnapshot files
+*.LightmapSnapshot
+# Unity Generated Lighting Data
+/[Ll]ibrary/LightmapSnapshot/
+
+# # Exclude ScriptableObject files
+# *.asset
+
+# # Exclude meta files
+# *.meta
+
+# Exclude builds
+*.apk
+*.aab
+*.exe
+*.app
+*.msi
+*.dmg
+
+# Exclude logs
+*.log
+
+# Exclude Unity Collaborate files
+/[Uu]ser[Ss]ettings/
+
+# Exclude Rider project files
+.idea/
+*.sln.iml
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Unity Packages folder
+/[Pp]ackages/
+# Unity Package Cache
+/[Pp]ackages/manifest.json
+/[Pp]ackages/packages-lock.json
+
+# Unity Lighting Data
+/[Aa]ssets/**/LightingData.asset
+
+# Unity Terrain Data
+/[Aa]ssets/**/TerrainData.asset
+
+# Unity Materials
+/[Aa]ssets/**/Materials/*.mat
+
+# Unity Animations
+/[Aa]ssets/**/Animations/*.anim
+
+# Unity Prefabs
+/[Aa]ssets/**/Prefabs/*.prefab
+
+# Unity Scene Backups
+/[Aa]ssets/**/*.unity~
+
+# Unity Editor Logs
+/[Ll]ibrary/EditorInstance.json
+
+# Unity StreamingAssets (if auto-generated or temporary)
+StreamingAssets/
+
+# Unity Asset Importer Logs
+/[Ll]ibrary/AssetImportState/
+
+# Unity Burst Compiler Cache
+/[Ll]ibrary/BurstCache/
+
+# Unity Temp Files
+/[Tt]emp/
+
+# Unity Build Logs
+/[Ll]ibrary/BuildPlayerData/
