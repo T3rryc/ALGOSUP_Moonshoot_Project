@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8d25b69d08ea69c44a57b7afc09b54ca
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248291
+  packageName: API for ChatGPT - Easy AI Integration
+  packageVersion: 1.7
+  assetPath: Assets/GPT API/Scripts/Whisper/Extensions/SavWav.cs
+  uploadId: 635147

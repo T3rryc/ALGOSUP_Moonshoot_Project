@@ -1,70 +1,53 @@
-#  Moonshoot Project ALGOSUP
-
-## Remora
-
+# 🎯 Moonshot Project – ALGOSUP
+## 🧠 Remora: AI-Powered VR Simulation for Social Communication Training
 ### Overview
-Remora is an AI-based assistant application that helps people with ASD (Autism Spectrum Disorder) enhance their communication abilities in a social context.
-The main focus is on writing content, rephrasing a text, second-degree detection, or any social signal that can make ASD people confused due to their singularities.
+Remora is a virtual reality simulation developed in Unity, designed to support neurodiverse individuals—particularly those on the autism spectrum—in practicing social interaction in a safe, immersive environment. The project centers around a realistic interaction with a friendly AI-powered NPC (shopkeeper), capable of holding natural voice-based conversations with the user.
 
-### Problematic to solve
-In modern society, diversity is more important than ever. I was always aware of this topic, which concerned equality between people and action to overcome injustice.
-The topic of ASD has become more highlighted in recent years; however, despite this increased awareness, the topic is largely unknown by many people and even by scientists, especially in France, when other Western countries like Canada are way more advanced on this topic
-.
-In France alone, ASD concerns 700,000 people and represents in a worldwide 1% percent of the global population worldwide.
-Unfortunately, the tool used to guide ASD people can't fit well in social interaction when it's a question to be on the field. In France, a tool used to guide people with ASD or any other disorder is called AVS, it can be translated as "Social Life Auxiliary". However, this assistance requires the presence of someone, but in the context of direct social interaction, letting someone translate social code or even delegate difficult tasks is a high investment.
-Let an AI application do this task can improve the fluency of social interaction and take more independence of the person exactly in the same way glasses for people with myopia, don't need any assistance to see something. 
+This simulation leverages OpenAI technologies (ChatGPT, Whisper, and TTS) to create a full conversational pipeline: the user speaks, their voice is transcribed, a response is generated, and that reply is spoken aloud with synchronized text display. The experience mimics a real-world scenario—such as asking for help in a store—and aims to improve confidence and comfort in everyday interactions.
 
-### What ASD means?
-ASD means Autism Spectrum Disorder. It's considered neurotypical, a neologism where the cognitive profile doesn't fit with the standard profile of the average cognition called neurotypical by the opposition. The main difficulties encountered by ASD people are the following: communication, social interaction, cognitive flexibility, and emotion management. Even if ASD is considered an "invisible disability" due to chronic daily life issues and difficulty being perceived by others, it's better to consider it more like a difference with this unique strength and weakness.
-The term "Spectrum" shows the large array of cases implied on ASD.
-This is the reason the project is focused on communication because this point is the epicenter of the problem ASD people encounter regardless of the case.
+### Problematic to Solve
+Many people with Autism Spectrum Disorder (ASD) face challenges in social settings—particularly in spontaneous verbal interactions like asking for assistance or managing a brief conversation with a stranger.
 
-### Why the solution involves AI?
-ASD is a neurological disorder. It means something that seems obvious to many people can be a struggle for an ASD one due to their difficulty in learning an assimilating social manner. For this reason, software using deep learning seems a perfect starting point to build a solution for this disability.
+In France, ASD affects more than 700,000 individuals, yet field-ready tools for building social confidence remain limited. Existing solutions, such as the use of an AVS (Auxiliaire de Vie Scolaire), often require the constant presence of a trained human assistant, which is not scalable, not autonomous, and not always possible in daily life.
 
-### Why Remora?
-(The name is not definitive and can be changed)
+Remora proposes an alternative: a digital, AI-powered social "copilot" that enables the user to engage directly in simulated conversations without human intervention. Like glasses for visual impairments, this tool does not replace human interaction—it makes it more accessible and manageable.
 
-The remora is a "copilot" fish who is usually attached on bigger animals and even rid of parasites. This is a good metaphor for what the application does, an assistance that was designed to help ASD people.
-And also makes a reference to the narrow focus ASD people usually have on very specific topics like animals which is a common topic for ASD.
 
-### It's exist a similar project?
-An application that involves an AI to help ASD with social interaction doesn't already exist so far.
+### Why Focus on VR + Conversational AI?
+ASD is a cognitive difference, not a flaw. But many individuals on the spectrum experience heightened stress or confusion during unstructured or socially nuanced interactions.
 
-### What does the software look like?
-To make a parallel, this project looks like [Grammarly](https://www.grammarly.com/), an AI who fixes grammatical and orthographic mistakes on any edited text file.
-On the other hand, Remora "translates" any text to a neuro-friendly version of the content on any files involved in writing content.
+Traditional teaching methods often fall short in preparing them for the unpredictability of real-life encounters. VR provides the safe, repeatable, immersive space needed for experiential learning.
+
+When combined with AI:
+
+OpenAI Whisper converts the user’s voice into text
+
+ChatGPT simulates realistic replies from an NPC shopkeeper
+
+OpenAI TTS vocalizes the response with warmth and clarity
+
+This real-time, AI-driven dialogue loop supports natural practice and builds verbal fluency without fear of judgment or mistakes.
 
 
 
+### Why the Name Remora?
+The name “Remora” references a fish known for attaching to larger animals like sharks or turtles, forming a helpful, symbiotic relationship. In the same way, this application acts as a digital "copilot"—nonintrusive, always available, and assisting the user as they navigate complex social situations.
+
+It also subtly echoes the strong interest in animals often observed among neurodiverse individuals, reinforcing relatability and user comfort.
 
 
+### What Does the Software Do?
+Remora places the user inside a fully navigable virtual store environment. There, they can:
 
+Ask questions or make requests by speaking aloud
 
+See and hear the shopkeeper’s response (text bubble + voice)
 
+Interact using a controller, hand tracking, or buttons as fallback
 
+Learn from realistic back-and-forth conversation cycles
 
+Build verbal confidence in a safe, low-pressure space
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Unlike tools that require scripting or pre-recorded responses, all interactions are dynamically generated, meaning the NPC can answer flexibly and contextually like a real person.
 

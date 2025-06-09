@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8365ebd05613b314bab2f28edd94f85b, type: 3}
+  m_Name: Ad from product description
+  m_EditorClassIdentifier: 
+  profileNotes: Turn a product description into ad copy.
+  model: text-davinci-003
+  maxTokens: 100
+  temperature: 0.5
+  topP: 1
+  frequencyPenalty: 0
+  presencePenalty: 0
+  bestOf: 1
+  stopSequences: []
+  initialPrompt: 'Write a creative ad for the following product to run on Facebook
+    aimed at parents:
+
+
+    Product: Learning Room is a virtual environment to help
+    students from kindergarten to high school excel in school.'
+  jsonDataToParse: "{\r\n  \"model\": \"text-davinci-003\",\r\n  \"prompt\": \"Write
+    a creative ad for the following product to run on Facebook aimed at parents:\\n\\nProduct:
+    Learning Room is a virtual environment to help students from kindergarten to
+    high school excel in school.\",\r\n  \"temperature\": 0.5,\r\n  \"max_tokens\":
+    100,\r\n  \"top_p\": 1.0,\r\n  \"frequency_penalty\": 0.0,\r\n  \"presence_penalty\":
+    0.0\r\n}"

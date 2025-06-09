@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f7d8c0abc21b5da4791d4f37ad562036
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 9700
+  packageName: Billboard
+  packageVersion: 1.0
+  assetPath: Assets/Billboard/Materials/legs.mat
+  uploadId: 6052

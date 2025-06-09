@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8365ebd05613b314bab2f28edd94f85b, type: 3}
+  m_Name: Keywords
+  m_EditorClassIdentifier: 
+  profileNotes: Extract keywords from a block of text. At a lower temperature it
+    picks keywords from the text. At a higher temperature it will generate related
+    keywords which can be helpful for creating search indexes.
+  model: text-davinci-003
+  maxTokens: 60
+  temperature: 0.5
+  topP: 1
+  frequencyPenalty: 0.8
+  presencePenalty: 0
+  bestOf: 1
+  stopSequences: []
+  initialPrompt: "Extract keywords from this text:\n\nBlack-on-black ware is a 20th-
+    and 21st-century pottery tradition developed by the Puebloan Native American
+    ceramic artists in Northern New Mexico. Traditional reduction-fired blackware
+    has been made for centuries by pueblo artists. Black-on-black ware of the past
+    century is produced with a smooth surface, with the designs applied through selective
+    burnishing or the application of refractory slip. Another style involves carving
+    or incising designs and selectively polishing the raised areas. For generations
+    several families from Kha'po Owingeh and P'ohwh\xF3ge Owingeh pueblos have been
+    making black-on-black ware with the techniques passed down from matriarch potters.
+    Artists from other pueblos have also produced black-on-black ware. Several contemporary
+    artists have created works honoring the pottery of their ancestors."
+  jsonDataToParse: "{\r\n  \"model\": \"text-davinci-003\",\r\n  \"prompt\": \"Extract
+    keywords from this text:\\n\\nBlack-on-black ware is a 20th- and 21st-century
+    pottery tradition developed by the Puebloan Native American ceramic artists in
+    Northern New Mexico. Traditional reduction-fired blackware has been made for
+    centuries by pueblo artists. Black-on-black ware of the past century is produced
+    with a smooth surface, with the designs applied through selective burnishing
+    or the application of refractory slip. Another style involves carving or incising
+    designs and selectively polishing the raised areas. For generations several families
+    from Kha'po Owingeh and P'ohwh\xF3ge Owingeh pueblos have been making black-on-black
+    ware with the techniques passed down from matriarch potters. Artists from other
+    pueblos have also produced black-on-black ware. Several contemporary artists
+    have created works honoring the pottery of their ancestors.\",\r\n  \"temperature\":
+    0.5,\r\n  \"max_tokens\": 60,\r\n  \"top_p\": 1.0,\r\n  \"frequency_penalty\":
+    0.8,\r\n  \"presence_penalty\": 0.0\r\n}"

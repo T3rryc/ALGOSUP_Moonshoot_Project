@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ac37e6a6ab0e40144bc0a1d8b34a1a2b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248291
+  packageName: API for ChatGPT - Easy AI Integration
+  packageVersion: 1.7
+  assetPath: Assets/GPT API/AI Profiles/OpenAI Examples/Turn by turn directions.asset
+  uploadId: 635147

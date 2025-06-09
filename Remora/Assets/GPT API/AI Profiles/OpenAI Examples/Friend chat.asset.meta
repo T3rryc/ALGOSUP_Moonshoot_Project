@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ebfaa8f3b8125564e96c00d9541b786a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248291
+  packageName: API for ChatGPT - Easy AI Integration
+  packageVersion: 1.7
+  assetPath: Assets/GPT API/AI Profiles/OpenAI Examples/Friend chat.asset
+  uploadId: 635147

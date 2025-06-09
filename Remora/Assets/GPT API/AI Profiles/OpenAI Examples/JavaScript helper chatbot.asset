@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8365ebd05613b314bab2f28edd94f85b, type: 3}
+  m_Name: JavaScript helper chatbot
+  m_EditorClassIdentifier: 
+  profileNotes: This is a message-style chatbot that can answer questions about using
+    JavaScript. It uses a few examples to get the conversation started.
+  model: code-davinci-002
+  maxTokens: 60
+  temperature: 0
+  topP: 1
+  frequencyPenalty: 0.5
+  presencePenalty: 0
+  bestOf: 1
+  stopSequences:
+  - 'You:'
+  initialPrompt: 'You: How do I combine arrays?
+
+    JavaScript chatbot: You can
+    use the concat() method.
+
+    You: How do you make an alert appear after 10 seconds?
+
+    JavaScript
+    chatbot'
+  jsonDataToParse: "{\r\n  \"model\": \"code-davinci-002\",\r\n  \"prompt\": \"You:
+    How do I combine arrays?\\nJavaScript chatbot: You can use the concat() method.\\nYou:
+    How do you make an alert appear after 10 seconds?\\nJavaScript chatbot\",\r\n 
+    \"temperature\": 0,\r\n  \"max_tokens\": 60,\r\n  \"top_p\": 1.0,\r\n  \"frequency_penalty\":
+    0.5,\r\n  \"presence_penalty\": 0.0,\r\n  \"stop\": [\"You:\"]\r\n}"

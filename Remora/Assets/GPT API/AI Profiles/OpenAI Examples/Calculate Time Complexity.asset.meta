@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fac381563e9c365429e36436b00b55cc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248291
+  packageName: API for ChatGPT - Easy AI Integration
+  packageVersion: 1.7
+  assetPath: Assets/GPT API/AI Profiles/OpenAI Examples/Calculate Time Complexity.asset
+  uploadId: 635147

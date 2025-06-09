@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5be38d5202ec8234f95f74796d1a6191
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248291
+  packageName: API for ChatGPT - Easy AI Integration
+  packageVersion: 1.7
+  assetPath: Assets/GPT API/AI Profiles/OpenAI Examples/Product name generator.asset
+  uploadId: 635147

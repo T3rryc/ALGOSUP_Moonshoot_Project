@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 78e4cc4aecf6b994c83098d6bf8bc9ff
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248291
+  packageName: API for ChatGPT - Easy AI Integration
+  packageVersion: 1.7
+  assetPath: Assets/GPT API/Demo/Scenes/ChatGPT Demo Scene.unity
+  uploadId: 635147

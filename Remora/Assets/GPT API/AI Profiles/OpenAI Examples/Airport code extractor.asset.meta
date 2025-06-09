@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4448060fe65c0ae41b548cd0c35563bb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248291
+  packageName: API for ChatGPT - Easy AI Integration
+  packageVersion: 1.7
+  assetPath: Assets/GPT API/AI Profiles/OpenAI Examples/Airport code extractor.asset
+  uploadId: 635147

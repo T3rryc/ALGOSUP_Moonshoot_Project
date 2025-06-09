@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c32d783bb705f1c4da13c1ac02951841
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248291
+  packageName: API for ChatGPT - Easy AI Integration
+  packageVersion: 1.7
+  assetPath: Assets/GPT API/AI Profiles/OpenAI Examples/Extract contact information.asset
+  uploadId: 635147

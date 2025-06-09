@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d4e0d90daf06aca4babab67e3cb4b894
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248291
+  packageName: API for ChatGPT - Easy AI Integration
+  packageVersion: 1.7
+  assetPath: Assets/GPT API/AI Profiles/OpenAI Examples/SQL translate.asset
+  uploadId: 635147

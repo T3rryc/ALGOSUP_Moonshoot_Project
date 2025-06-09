@@ -128,3 +128,7 @@ StreamingAssets/
 
 # Unity Build Logs
 /[Ll]ibrary/BuildPlayerData/
+
+# env.env files (for environment variables)
+env.env
+.env

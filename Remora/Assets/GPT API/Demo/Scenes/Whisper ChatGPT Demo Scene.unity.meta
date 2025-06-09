@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e001710b338bd554ab3f48248487b9cb
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248291
+  packageName: API for ChatGPT - Easy AI Integration
+  packageVersion: 1.7
+  assetPath: Assets/GPT API/Demo/Scenes/Whisper ChatGPT Demo Scene.unity
+  uploadId: 635147

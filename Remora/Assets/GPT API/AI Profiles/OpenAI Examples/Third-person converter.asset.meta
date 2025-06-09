@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b0aa5d3847103db4db5fd45ee2e8caf5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248291
+  packageName: API for ChatGPT - Easy AI Integration
+  packageVersion: 1.7
+  assetPath: Assets/GPT API/AI Profiles/OpenAI Examples/Third-person converter.asset
+  uploadId: 635147

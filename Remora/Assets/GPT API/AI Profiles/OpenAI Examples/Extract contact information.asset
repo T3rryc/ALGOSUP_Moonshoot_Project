@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8365ebd05613b314bab2f28edd94f85b, type: 3}
+  m_Name: Extract contact information
+  m_EditorClassIdentifier: 
+  profileNotes: Extract contact information from a block of text.
+  model: text-davinci-003
+  maxTokens: 64
+  temperature: 0
+  topP: 1
+  frequencyPenalty: 0
+  presencePenalty: 0
+  bestOf: 1
+  stopSequences: []
+  initialPrompt: 'Extract the name and mailing address from this email:
+
+
+    Dear
+    Kelly,
+
+
+    It was great to talk to you at the seminar. I thought Jane''s talk
+    was quite good.
+
+
+    Thank you for the book. Here''s my address 2111 Ash Lane,
+    Crestview CA 92002
+
+
+    Best,
+
+
+    Maya
+
+
+    Name:'
+  jsonDataToParse: "{\r\n  \"model\": \"text-davinci-003\",\r\n  \"prompt\": \"Extract
+    the name and mailing address from this email:\\n\\nDear Kelly,\\n\\nIt was great
+    to talk to you at the seminar. I thought Jane's talk was quite good.\\n\\nThank
+    you for the book. Here's my address 2111 Ash Lane, Crestview CA 92002\\n\\nBest,\\n\\nMaya\\n\\nName:\",\r\n 
+    \"temperature\": 0,\r\n  \"max_tokens\": 64,\r\n  \"top_p\": 1.0,\r\n  \"frequency_penalty\":
+    0.0,\r\n  \"presence_penalty\": 0.0\r\n}"

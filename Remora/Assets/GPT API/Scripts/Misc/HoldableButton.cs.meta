@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 57a0d0ec4f9a8c540aa028bb965d8134
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248291
+  packageName: API for ChatGPT - Easy AI Integration
+  packageVersion: 1.7
+  assetPath: Assets/GPT API/Scripts/Misc/HoldableButton.cs
+  uploadId: 635147

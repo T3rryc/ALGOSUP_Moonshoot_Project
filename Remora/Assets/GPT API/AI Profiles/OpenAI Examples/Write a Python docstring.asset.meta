@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1bc499f8aff3ec349a9946f82ea1312f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248291
+  packageName: API for ChatGPT - Easy AI Integration
+  packageVersion: 1.7
+  assetPath: Assets/GPT API/AI Profiles/OpenAI Examples/Write a Python docstring.asset
+  uploadId: 635147

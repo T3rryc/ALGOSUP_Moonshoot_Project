@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ef35ae04b762200468882aeebcbbd200
+timeCreated: 1466716886
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 75494
+  packageName: Food & Grocery Items - Low Poly
+  packageVersion: 1.0
+  assetPath: Assets/FoodAndGrocery/Items/Can/Materials/CanBlack.mat
+  uploadId: 145458

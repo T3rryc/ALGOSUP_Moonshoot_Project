@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8485e84f1f0067f489eed68aa3ced8a2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 289927
+  packageName: Shelves01 Pack
+  packageVersion: 1.2
+  assetPath: Assets/ShelfObjects/Materials/Shelf_G_Mtl.mat
+  uploadId: 683573

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8365ebd05613b314bab2f28edd94f85b, type: 3}
+  m_Name: English to other languages
+  m_EditorClassIdentifier: 
+  profileNotes: Translates English text into French, Spanish and Japanese.
+  model: text-davinci-003
+  maxTokens: 100
+  temperature: 0.3
+  topP: 1
+  frequencyPenalty: 0
+  presencePenalty: 0
+  bestOf: 1
+  stopSequences: []
+  initialPrompt: 'Translate this into 1. French, 2. Spanish and 3. Japanese:
+
+
+    What
+    rooms do you have available?
+
+
+    1.'
+  jsonDataToParse: "{\r\n  \"model\": \"text-davinci-003\",\r\n  \"prompt\": \"Translate
+    this into 1. French, 2. Spanish and 3. Japanese:\\n\\nWhat rooms do you have
+    available?\\n\\n1.\",\r\n  \"temperature\": 0.3,\r\n  \"max_tokens\": 100,\r\n 
+    \"top_p\": 1.0,\r\n  \"frequency_penalty\": 0.0,\r\n  \"presence_penalty\": 0.0\r\n}"

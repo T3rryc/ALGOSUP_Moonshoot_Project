@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8365ebd05613b314bab2f28edd94f85b, type: 3}
+  m_Name: Parse unstructured data
+  m_EditorClassIdentifier: 
+  profileNotes: Create tables from long form text by specifying a structure and supplying
+    some examples.
+  model: text-davinci-003
+  maxTokens: 100
+  temperature: 0
+  topP: 1
+  frequencyPenalty: 0
+  presencePenalty: 0
+  bestOf: 1
+  stopSequences: []
+  initialPrompt: 'A table summarizing the fruits from Goocrux:
+
+
+    There are many
+    fruits that were found on the recently discovered planet Goocrux. There are neoskizzles
+    that grow there, which are purple and taste like candy. There are also loheckles,
+    which are a grayish blue fruit and are very tart, a little bit like a lemon.
+    Pounits are a bright green color and are more savory than sweet. There are also
+    plenty of loopnovas which are a neon pink flavor and taste like cotton candy.
+    Finally, there are fruits called glowls, which have a very sour and bitter taste
+    which is acidic and caustic, and a pale orange tinge to them.
+
+
+    | Fruit |
+    Color | Flavor |'
+  jsonDataToParse: "{\r\n  \"model\": \"text-davinci-003\",\r\n  \"prompt\": \"A
+    table summarizing the fruits from Goocrux:\\n\\nThere are many fruits that were
+    found on the recently discovered planet Goocrux. There are neoskizzles that grow
+    there, which are purple and taste like candy. There are also loheckles, which
+    are a grayish blue fruit and are very tart, a little bit like a lemon. Pounits
+    are a bright green color and are more savory than sweet. There are also plenty
+    of loopnovas which are a neon pink flavor and taste like cotton candy. Finally,
+    there are fruits called glowls, which have a very sour and bitter taste which
+    is acidic and caustic, and a pale orange tinge to them.\\n\\n| Fruit | Color
+    | Flavor |\",\r\n  \"temperature\": 0,\r\n  \"max_tokens\": 100,\r\n  \"top_p\":
+    1.0,\r\n  \"frequency_penalty\": 0.0,\r\n  \"presence_penalty\": 0.0\r\n}"

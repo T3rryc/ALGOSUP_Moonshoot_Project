@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 21a8fe374d9992e40920bf9b523f74e6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248291
+  packageName: API for ChatGPT - Easy AI Integration
+  packageVersion: 1.7
+  assetPath: Assets/GPT API/AI Profiles/WhisperDefault.asset
+  uploadId: 635147

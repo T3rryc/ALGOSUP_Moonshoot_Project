@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a30d838ab1a6e284593c9748a68166a5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248291
+  packageName: API for ChatGPT - Easy AI Integration
+  packageVersion: 1.7
+  assetPath: Assets/GPT API/AI Profiles/GPT 4.asset
+  uploadId: 635147

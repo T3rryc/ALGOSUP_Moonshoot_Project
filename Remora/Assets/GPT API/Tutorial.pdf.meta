@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 99b763c4842e84945965252c63614a93
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248291
+  packageName: API for ChatGPT - Easy AI Integration
+  packageVersion: 1.7
+  assetPath: Assets/GPT API/Tutorial.pdf
+  uploadId: 635147

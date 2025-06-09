@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 04f2587e0f5a75e45bc7778922c95489
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248291
+  packageName: API for ChatGPT - Easy AI Integration
+  packageVersion: 1.7
+  assetPath: Assets/GPT API/AI Profiles/OpenAI Examples/Parse unstructured data.asset
+  uploadId: 635147

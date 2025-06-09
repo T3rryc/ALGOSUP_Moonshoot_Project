@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 36a580101ac5f11479ed34e0539e3f8e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248291
+  packageName: API for ChatGPT - Easy AI Integration
+  packageVersion: 1.7
+  assetPath: Assets/GPT API/AI Profiles/OpenAI Examples/Movie to Emoji.asset
+  uploadId: 635147

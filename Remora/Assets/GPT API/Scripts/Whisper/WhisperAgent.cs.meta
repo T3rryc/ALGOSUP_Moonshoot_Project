@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5f52a7ab462ccc04b86e803431278ad5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248291
+  packageName: API for ChatGPT - Easy AI Integration
+  packageVersion: 1.7
+  assetPath: Assets/GPT API/Scripts/Whisper/WhisperAgent.cs
+  uploadId: 635147

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8365ebd05613b314bab2f28edd94f85b, type: 3}
+  m_Name: Write a Python docstring
+  m_EditorClassIdentifier: 
+  profileNotes: An example of how to create a docstring for a given Python function.
+    We specify the Python version, paste in the code, and then ask within a comment
+    for a docstring, and give a characteristic beginning of a docstring (""").
+  model: code-davinci-002
+  maxTokens: 150
+  temperature: 0
+  topP: 1
+  frequencyPenalty: 0
+  presencePenalty: 0
+  bestOf: 1
+  stopSequences:
+  - '#'
+  - '"""'
+  initialPrompt: "# Python 3.7\n \ndef randomly_split_dataset(folder, filename, split_ratio=[0.8,
+    0.2]):\n    df = pd.read_json(folder + filename, lines=True)\n    train_name,
+    test_name = \"train.jsonl\", \"test.jsonl\"\n    df_train, df_test = train_test_split(df,
+    test_size=split_ratio[1], random_state=42)\n    df_train.to_json(folder + train_name,
+    orient='records', lines=True)\n    df_test.to_json(folder + test_name, orient='records',
+    lines=True)\nrandomly_split_dataset('finetune_data/', 'dataset.jsonl')\n    \n#
+    An elaborate, high quality docstring for the above function:\n\"\"\""
+  jsonDataToParse: "{\r\n  \"model\": \"code-davinci-002\",\r\n  \"prompt\": \"#
+    Python 3.7\\n \\ndef randomly_split_dataset(folder, filename, split_ratio=[0.8,
+    0.2]):\\n    df = pd.read_json(folder + filename, lines=True)\\n    train_name,
+    test_name = \\\"train.jsonl\\\", \\\"test.jsonl\\\"\\n    df_train, df_test =
+    train_test_split(df, test_size=split_ratio[1], random_state=42)\\n    df_train.to_json(folder
+    + train_name, orient='records', lines=True)\\n    df_test.to_json(folder + test_name,
+    orient='records', lines=True)\\nrandomly_split_dataset('finetune_data/', 'dataset.jsonl')\\n   
+    \\n# An elaborate, high quality docstring for the above function:\\n\\\"\\\"\\\"\",\r\n 
+    \"temperature\": 0,\r\n  \"max_tokens\": 150,\r\n  \"top_p\": 1.0,\r\n  \"frequency_penalty\":
+    0.0,\r\n  \"presence_penalty\": 0.0,\r\n  \"stop\": [\"#\", \"\\\"\\\"\\\"\"]\r\n}"

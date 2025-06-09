@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8365ebd05613b314bab2f28edd94f85b, type: 3}
+  m_Name: Advanced tweet classifier
+  m_EditorClassIdentifier: 
+  profileNotes: This is an advanced prompt for detecting sentiment. It allows you
+    to provide it with a list of status updates and then provide a sentiment for
+    each one.
+  model: text-davinci-003
+  maxTokens: 60
+  temperature: 0
+  topP: 1
+  frequencyPenalty: 0
+  presencePenalty: 0
+  bestOf: 1
+  stopSequences: []
+  initialPrompt: "Classify the sentiment in these tweets:\n\n1. \"I can't stand homework\"\n2.
+    \"This sucks. I'm bored \U0001F620\"\n3. \"I can't wait for Halloween!!!\"\n4.
+    \"My cat is adorable \u2764\uFE0F\u2764\uFE0F\"\n5. \"I hate chocolate\"\n\nTweet
+    sentiment ratings:"
+  jsonDataToParse: "{\r\n  \"model\": \"text-davinci-003\",\r\n  \"prompt\": \"Classify
+    the sentiment in these tweets:\\n\\n1. \\\"I can't stand homework\\\"\\n2. \\\"This
+    sucks. I'm bored \U0001F620\\\"\\n3. \\\"I can't wait for Halloween!!!\\\"\\n4.
+    \\\"My cat is adorable \u2764\uFE0F\u2764\uFE0F\\\"\\n5. \\\"I hate chocolate\\\"\\n\\nTweet
+    sentiment ratings:\",\r\n  \"temperature\": 0,\r\n  \"max_tokens\": 60,\r\n 
+    \"top_p\": 1.0,\r\n  \"frequency_penalty\": 0.0,\r\n  \"presence_penalty\": 0.0\r\n}"

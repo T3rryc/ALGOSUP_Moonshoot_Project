@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7b055c28c2d98a74890025209f62e9e2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248291
+  packageName: API for ChatGPT - Easy AI Integration
+  packageVersion: 1.7
+  assetPath: Assets/GPT API/AI Profiles/OpenAI Examples/Grammar Correction.asset
+  uploadId: 635147

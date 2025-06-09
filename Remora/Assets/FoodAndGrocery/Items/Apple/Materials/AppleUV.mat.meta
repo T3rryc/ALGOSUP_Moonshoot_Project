@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fd84161baee1c8447a56f61f2c071246
+timeCreated: 1478291201
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 75494
+  packageName: Food & Grocery Items - Low Poly
+  packageVersion: 1.0
+  assetPath: Assets/FoodAndGrocery/Items/Apple/Materials/AppleUV.mat
+  uploadId: 145458

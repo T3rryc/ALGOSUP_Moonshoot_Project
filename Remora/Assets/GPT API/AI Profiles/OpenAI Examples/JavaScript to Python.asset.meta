@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 10259268cd927344b9823bb96e915bc9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248291
+  packageName: API for ChatGPT - Easy AI Integration
+  packageVersion: 1.7
+  assetPath: Assets/GPT API/AI Profiles/OpenAI Examples/JavaScript to Python.asset
+  uploadId: 635147

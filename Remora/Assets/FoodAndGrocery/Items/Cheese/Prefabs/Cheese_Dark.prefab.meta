@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b39cb3fd925b95c40a9e9763eb0109fd
+timeCreated: 1478349292
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 75494
+  packageName: Food & Grocery Items - Low Poly
+  packageVersion: 1.0
+  assetPath: Assets/FoodAndGrocery/Items/Cheese/Prefabs/Cheese_Dark.prefab
+  uploadId: 145458

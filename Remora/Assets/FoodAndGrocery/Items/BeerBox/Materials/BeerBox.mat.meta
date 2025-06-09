@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bb40f428bcce1594795c3e74cb46a9f6
+timeCreated: 1466175519
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 75494
+  packageName: Food & Grocery Items - Low Poly
+  packageVersion: 1.0
+  assetPath: Assets/FoodAndGrocery/Items/BeerBox/Materials/BeerBox.mat
+  uploadId: 145458

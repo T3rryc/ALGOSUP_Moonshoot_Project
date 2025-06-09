@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7a2e30d1230b24745a6fd8e48243c440
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248291
+  packageName: API for ChatGPT - Easy AI Integration
+  packageVersion: 1.7
+  assetPath: Assets/GPT API/AI Profiles/OpenAI Examples/Recipe creator (eat at your
+    own risk).asset
+  uploadId: 635147

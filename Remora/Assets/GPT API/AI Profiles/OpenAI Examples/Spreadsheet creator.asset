@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8365ebd05613b314bab2f28edd94f85b, type: 3}
+  m_Name: Spreadsheet creator
+  m_EditorClassIdentifier: 
+  profileNotes: Create spreadsheets of various kinds of data. It's a long prompt
+    but very versatile. Output can be copy+pasted into a text file and saved as a
+    .csv with pipe separators.
+  model: text-davinci-003
+  maxTokens: 60
+  temperature: 0.5
+  topP: 1
+  frequencyPenalty: 0
+  presencePenalty: 0
+  bestOf: 1
+  stopSequences: []
+  initialPrompt: 'A two-column spreadsheet of top science fiction movies and the
+    year of release:
+
+
+    Title |  Year of release'
+  jsonDataToParse: "{\r\n  \"model\": \"text-davinci-003\",\r\n  \"prompt\": \"A
+    two-column spreadsheet of top science fiction movies and the year of release:\\n\\nTitle
+    |  Year of release\",\r\n  \"temperature\": 0.5,\r\n  \"max_tokens\": 60,\r\n 
+    \"top_p\": 1.0,\r\n  \"frequency_penalty\": 0.0,\r\n  \"presence_penalty\": 0.0\r\n}"

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 31c230c4dfe90874d92c7f5c93a68081
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248291
+  packageName: API for ChatGPT - Easy AI Integration
+  packageVersion: 1.7
+  assetPath: Assets/GPT API/Demo/Scripts/GPTDemoChat.cs
+  uploadId: 635147

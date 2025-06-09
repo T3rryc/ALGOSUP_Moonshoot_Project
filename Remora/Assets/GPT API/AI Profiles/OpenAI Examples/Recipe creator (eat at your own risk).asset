@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8365ebd05613b314bab2f28edd94f85b, type: 3}
+  m_Name: Recipe creator (eat at your own risk)
+  m_EditorClassIdentifier: 
+  profileNotes: Create a recipe from a list of ingredients.
+  model: text-davinci-003
+  maxTokens: 120
+  temperature: 0.3
+  topP: 1
+  frequencyPenalty: 0
+  presencePenalty: 0
+  bestOf: 1
+  stopSequences: []
+  initialPrompt: 'Write a recipe based on these ingredients and instructions:
+
+
+    Frito
+    Pie
+
+
+    Ingredients:
+
+    Fritos
+
+    Chili
+
+    Shredded cheddar cheese
+
+    Sweet
+    white or red onions, diced small
+
+    Sour cream
+
+
+    Instructions:'
+  jsonDataToParse: "{\r\n  \"model\": \"text-davinci-003\",\r\n  \"prompt\": \"Write
+    a recipe based on these ingredients and instructions:\\n\\nFrito Pie\\n\\nIngredients:\\nFritos\\nChili\\nShredded
+    cheddar cheese\\nSweet white or red onions, diced small\\nSour cream\\n\\nInstructions:\",\r\n 
+    \"temperature\": 0.3,\r\n  \"max_tokens\": 120,\r\n  \"top_p\": 1.0,\r\n  \"frequency_penalty\":
+    0.0,\r\n  \"presence_penalty\": 0.0\r\n}"

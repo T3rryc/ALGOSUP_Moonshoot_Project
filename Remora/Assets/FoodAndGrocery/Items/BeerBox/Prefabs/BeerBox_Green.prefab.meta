@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ca391d485f1dee040975932fd1c862e6
+timeCreated: 1478349071
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 75494
+  packageName: Food & Grocery Items - Low Poly
+  packageVersion: 1.0
+  assetPath: Assets/FoodAndGrocery/Items/BeerBox/Prefabs/BeerBox_Green.prefab
+  uploadId: 145458

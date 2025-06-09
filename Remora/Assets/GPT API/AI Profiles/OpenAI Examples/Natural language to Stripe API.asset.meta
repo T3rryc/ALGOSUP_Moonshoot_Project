@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0cfc21772a9c53a459a7a1f7a69678e6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248291
+  packageName: API for ChatGPT - Easy AI Integration
+  packageVersion: 1.7
+  assetPath: Assets/GPT API/AI Profiles/OpenAI Examples/Natural language to Stripe
+    API.asset
+  uploadId: 635147

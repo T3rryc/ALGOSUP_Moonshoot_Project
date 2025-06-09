@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0dcbc534095ac4d4799807a0ed7cd6bf
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248291
+  packageName: API for ChatGPT - Easy AI Integration
+  packageVersion: 1.7
+  assetPath: Assets/GPT API/Scripts/Responses/ChatStreamResponse.cs
+  uploadId: 635147

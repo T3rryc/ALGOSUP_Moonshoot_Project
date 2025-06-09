@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eb0cecb0141a6bb498bde4d5dc0a5c35
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248291
+  packageName: API for ChatGPT - Easy AI Integration
+  packageVersion: 1.7
+  assetPath: Assets/GPT API/AI Profiles/OpenAI Examples/Advanced tweet classifier.asset
+  uploadId: 635147

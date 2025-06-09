@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8365ebd05613b314bab2f28edd94f85b, type: 3}
+  m_Name: Translate programming languages
+  m_EditorClassIdentifier: 
+  profileNotes: To translate from one programming language to another we can use
+    the comments to specify the source and target languages.
+  model: code-davinci-002
+  maxTokens: 54
+  temperature: 0
+  topP: 1
+  frequencyPenalty: 0
+  presencePenalty: 0
+  bestOf: 1
+  stopSequences:
+  - '###'
+  initialPrompt: "##### Translate this function  from Python into Haskell\n### Python\n   
+    \n    def predict_proba(X: Iterable[str]):\n        return np.array([predict_one_probas(tweet)
+    for tweet in X])\n    \n### Haskell"
+  jsonDataToParse: "{\r\n  \"model\": \"code-davinci-002\",\r\n  \"prompt\": \"#####
+    Translate this function  from Python into Haskell\\n### Python\\n    \\n    def
+    predict_proba(X: Iterable[str]):\\n        return np.array([predict_one_probas(tweet)
+    for tweet in X])\\n    \\n### Haskell\",\r\n  \"temperature\": 0,\r\n  \"max_tokens\":
+    54,\r\n  \"top_p\": 1.0,\r\n  \"frequency_penalty\": 0.0,\r\n  \"presence_penalty\":
+    0.0,\r\n  \"stop\": [\"###\"]\r\n}"

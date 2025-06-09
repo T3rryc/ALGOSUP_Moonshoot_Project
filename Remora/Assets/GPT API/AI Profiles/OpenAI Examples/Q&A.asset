@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8365ebd05613b314bab2f28edd94f85b, type: 3}
+  m_Name: Q&A
+  m_EditorClassIdentifier: 
+  profileNotes: Answer questions based on existing knowledge.
+  model: text-davinci-003
+  maxTokens: 100
+  temperature: 0
+  topP: 1
+  frequencyPenalty: 0
+  presencePenalty: 0
+  bestOf: 1
+  stopSequences:
+  - \n
+  initialPrompt: 'I am a highly intelligent question answering bot. If you ask me
+    a question that is rooted in truth, I will give you the answer. If you ask me
+    a question that is nonsense, trickery, or has no clear answer, I will respond
+    with "Unknown".
+
+
+    Q: What is human life expectancy in the United States?
+
+    A:
+    Human life expectancy in the United States is 78 years.
+
+
+    Q: Who was president
+    of the United States in 1955?
+
+    A: Dwight D. Eisenhower was president of the
+    United States in 1955.
+
+
+    Q: Which party did he belong to?
+
+    A: He belonged
+    to the Republican Party.
+
+
+    Q: What is the square root of banana?
+
+    A:
+    Unknown
+
+
+    Q: How does a telescope work?
+
+    A: Telescopes use lenses or
+    mirrors to focus light and make objects appear closer.
+
+
+    Q: Where were the
+    1992 Olympics held?
+
+    A: The 1992 Olympics were held in Barcelona, Spain.
+
+
+    Q:
+    How many squigs are in a bonk?
+
+    A: Unknown
+
+
+    Q: Where is the Valley of
+    Kings?
+
+    A:'
+  jsonDataToParse: "{\r\n  \"model\": \"text-davinci-003\",\r\n  \"prompt\": \"I
+    am a highly intelligent question answering bot. If you ask me a question that
+    is rooted in truth, I will give you the answer. If you ask me a question that
+    is nonsense, trickery, or has no clear answer, I will respond with \\\"Unknown\\\".\\n\\nQ:
+    What is human life expectancy in the United States?\\nA: Human life expectancy
+    in the United States is 78 years.\\n\\nQ: Who was president of the United States
+    in 1955?\\nA: Dwight D. Eisenhower was president of the United States in 1955.\\n\\nQ:
+    Which party did he belong to?\\nA: He belonged to the Republican Party.\\n\\nQ:
+    What is the square root of banana?\\nA: Unknown\\n\\nQ: How does a telescope
+    work?\\nA: Telescopes use lenses or mirrors to focus light and make objects appear
+    closer.\\n\\nQ: Where were the 1992 Olympics held?\\nA: The 1992 Olympics were
+    held in Barcelona, Spain.\\n\\nQ: How many squigs are in a bonk?\\nA: Unknown\\n\\nQ:
+    Where is the Valley of Kings?\\nA:\",\r\n  \"temperature\": 0,\r\n  \"max_tokens\":
+    100,\r\n  \"top_p\": 1,\r\n  \"frequency_penalty\": 0.0,\r\n  \"presence_penalty\":
+    0.0,\r\n  \"stop\": [\"\\n\"]\r\n}"

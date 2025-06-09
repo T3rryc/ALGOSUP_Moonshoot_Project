@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a0eef9cf89fa1094f8d82d6063dc542e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248291
+  packageName: API for ChatGPT - Easy AI Integration
+  packageVersion: 1.7
+  assetPath: Assets/GPT API/AI Profiles/OpenAI Examples/Summarize for a 2nd grader.asset
+  uploadId: 635147
