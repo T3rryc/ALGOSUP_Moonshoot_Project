@@ -556,6 +556,8 @@ The data isn't stored permanently, and the application does not collect any pers
 
 Users are encouraged to use their own OpenAI API key if they exceed the allowed daily limit or intend to use the project extensively.
 
+For this project, the key is hidden for local development and testing purposes. In production, it should be securely stored and accessed via environment variables or secure vaults. The file EnvLoader.cs is designed to load the API key from a secure location, such as a local file or environment variable, to avoid hardcoding sensitive information in the source code. the file with the key is on .env file, which is not included in the repository to prevent accidental exposure with the .gitignore file.
+
 
 ## Extensibility
 
