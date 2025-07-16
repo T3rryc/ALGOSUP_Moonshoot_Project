@@ -8921,7 +8921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60ddaefd79b3330448f1f101eae2fb4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  openAIKey: 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
+  openAIKey: 
 --- !u!4 &433262778
 Transform:
   m_ObjectHideFlags: 0
@@ -32583,7 +32583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e16f34b3d09431e49abb1ddc1c32419c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  openAIKey: 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
+  openAIKey: 
   userPrompt: Where are the drinks?
   latestResponse: 
 --- !u!4 &1529411537
@@ -39281,7 +39281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2aa694946478eaf4f99cd416cdf88e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apiKey: 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
+  apiKey: 
   audioSource: {fileID: 1841533894}
 --- !u!4 &1842518148 stripped
 Transform:
@@ -45326,7 +45326,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3efec63c180ca564fb6fa239dc3b87c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apiKey: 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
+  apiKey: 
   dialogueManager: {fileID: 2004020177}
 --- !u!4 &2143340164
 Transform:
