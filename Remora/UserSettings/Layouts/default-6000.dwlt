@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Console
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -69,8 +69,8 @@ MonoBehaviour:
     y: 0
     width: 537
     height: 933
-  m_MinSize: {x: 276, y: 76}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 398
     height: 499
-  m_MinSize: {x: 201, y: 226}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -121,8 +121,8 @@ MonoBehaviour:
     y: 499
     width: 1383
     height: 434
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 101, y: 126}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 12}
@@ -301,9 +301,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 508
-    width: 1402
-    height: 478
+    y: 578
+    width: 1382
+    height: 408
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -326,7 +326,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -336,16 +336,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Terryc\Documents\GitHub\ALGOSUP_Moonshoot_Project\Remora
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 40cd0000
-    m_LastClickedID: 52544
-    m_ExpandedIDs: 000000003ecd000040cd0000
+    m_SelectedIDs: c25a0100
+    m_LastClickedID: 88770
+    m_ExpandedIDs: 00000000c25a010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -374,7 +374,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003ecd000040cd0000
+    m_ExpandedIDs: 00000000c25a0100c45a0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -400,9 +400,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: b4aa0000
-    m_LastClickedInstanceID: 43700
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 645d0100
+    m_LastClickedInstanceID: 89444
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000050b5000090b2000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -520,9 +520,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 645d0100
       m_LastClickedID: 0
-      m_ExpandedIDs: 1efbffff
+      m_ExpandedIDs: 3c37fdff784fffff706dffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1042,9 +1042,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 0.4230388, y: 1.0419345, z: 4.9699206}
+    m_Target: {x: -10.231589, y: 12.068522, z: -32.82771}
     speed: 2
-    m_Value: {x: 0.4230388, y: 1.0419345, z: 4.9699206}
+    m_Value: {x: -10.231589, y: 12.068522, z: -32.82771}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1090,13 +1090,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.15405692, y: 0.29810494, z: -0.048817884, w: 0.94080496}
+    m_Target: {x: 0.026382755, y: 0.7978085, z: -0.034960628, w: 0.6014044}
     speed: 2
-    m_Value: {x: 0.15404943, y: 0.29809046, z: -0.04881551, w: 0.9407592}
+    m_Value: {x: 0.026433792, y: 0.7968641, z: -0.0349192, w: 0.60256916}
   m_Size:
-    m_Target: 0.37023163
+    m_Target: 42.812843
     speed: 2
-    m_Value: 0.37023163
+    m_Value: 40.969227
   m_Ortho:
     m_Target: 0
     speed: 2
