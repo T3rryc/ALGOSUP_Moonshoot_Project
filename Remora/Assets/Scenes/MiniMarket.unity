@@ -1894,7 +1894,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2086762525}
         m_TargetAssemblyTypeName: MicRecorder, Assembly-CSharp
         m_MethodName: StopRecordingAndSend
         m_Mode: 1
@@ -3643,7 +3643,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2086762525}
         m_TargetAssemblyTypeName: MicRecorder, Assembly-CSharp
         m_MethodName: StartRecording
         m_Mode: 1

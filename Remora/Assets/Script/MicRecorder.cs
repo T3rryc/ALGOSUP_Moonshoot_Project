@@ -3,6 +3,9 @@ using System.Collections;
 using System.IO;
 using UnityEngine.Networking;
 using System;
+using UnityEngine.XR; // For VR detection
+using System.Linq;    // For FirstOrDefault
+
 
 public class MicRecorder : MonoBehaviour
 {
@@ -11,12 +14,63 @@ public class MicRecorder : MonoBehaviour
 
     private AudioClip recordedClip;
     private string filePath;
+    private string selectedMicDevice;
 
-    public void StartRecording()
+
+    void Start()
     {
-        recordedClip = Microphone.Start(null, false, 5, 44100);
-        Debug.Log("🎙️ Started recording...");
+        var devices = Microphone.devices;
+        Debug.Log("🎙️ Available Mics:");
+        foreach (var d in devices)
+        {
+            Debug.Log(" - " + d);
+        }
     }
+
+
+   public void StartRecording()
+    {
+        string[] mics = Microphone.devices;
+        bool isVrActive = XRSettings.isDeviceActive;
+        Debug.Log("🎮 VR Headset Active? " + isVrActive);
+
+        foreach (var mic in mics)
+        {
+            Debug.Log("Detected Mic: " + mic);
+        }
+
+        if (isVrActive)
+        {
+            // Look for a VR mic
+            selectedMicDevice = mics.FirstOrDefault(m => m.ToLower().Contains("oculus") || m.ToLower().Contains("vive") || m.ToLower().Contains("vr"));
+            if (selectedMicDevice == null && mics.Length > 0)
+            {
+                selectedMicDevice = mics[0]; // fallback
+                Debug.LogWarning("⚠️ VR mic not found, using default mic: " + selectedMicDevice);
+            }
+        }
+        else
+        {
+            // Use laptop/internal mic
+            selectedMicDevice = mics.FirstOrDefault(m => m.ToLower().Contains("realtek") || m.ToLower().Contains("internal"));
+            if (selectedMicDevice == null && mics.Length > 0)
+            {
+                selectedMicDevice = mics[0]; // fallback
+                Debug.LogWarning("⚠️ No internal mic found, using default mic: " + selectedMicDevice);
+            }
+        }
+
+        if (selectedMicDevice != null)
+        {
+            recordedClip = Microphone.Start(selectedMicDevice, false, 5, 44100);
+            Debug.Log($"🎙️ Started recording on: {selectedMicDevice}");
+        }
+        else
+        {
+            Debug.LogError("❌ No microphone available!");
+        }
+    }
+
 
     public void StopRecordingAndSend()
     {
