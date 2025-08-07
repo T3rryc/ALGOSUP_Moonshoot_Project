@@ -93,7 +93,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 370.4
+    width: 366.4
     height: 522.4
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -121,14 +121,14 @@ MonoBehaviour:
     y: 522.4
     width: 1106.4
     height: 290.39996
-  m_MinSize: {x: 101, y: 126}
-  m_MaxSize: {x: 4001, y: 4026}
-  m_ActualView: {fileID: 17}
+  m_MinSize: {x: 231, y: 276}
+  m_MaxSize: {x: 10001, y: 10026}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
   - {fileID: 17}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -267,9 +267,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 370.4
+    x: 366.4
     y: 0
-    width: 736
+    width: 740
     height: 522.4
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
@@ -326,7 +326,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Script
+    - Assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -336,16 +336,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Script
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\salah\Documents\GitHub\ALGOSUP_Moonshoot_Project\Remora
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 180}
-    m_SelectedIDs: 62280100
-    m_LastClickedID: 75874
-    m_ExpandedIDs: 00000000441c0100461c0100481c01004a1c01004c1c01008023010000ca9a3b
+    scrollPos: {x: 0, y: 223.60004}
+    m_SelectedIDs: 8e1e0100
+    m_LastClickedID: 73358
+    m_ExpandedIDs: 00000000441c0100461c0100481c01004a1c01004c1c01008e1e0100de0b080000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -374,7 +374,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000441c0100461c0100481c01004a1c01004c1c0100
+    m_ExpandedIDs: 00000000441c0100461c0100481c01004a1c01004c1c01004e1c0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -400,10 +400,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 1c850100
-    m_LastClickedInstanceID: 99612
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c623000050b5000090b2000000000000eaa40000
+    m_ExpandedInstanceIDs: c623000050b5000090b2000000000000eaa40000bec300008a2d0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -504,7 +504,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 79.200005
-    width: 369.4
+    width: 365.4
     height: 496.40002
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -520,23 +520,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 76850100
-      m_LastClickedID: 99702
-      m_ExpandedIDs: 3821feffe63cfeff8880feff869cfeff56defeff5efafeff863cffff2a58ffff9a99ffff2ab5ffff02fbffff90c300003a31010054420100c247010008510100985c0100de6501008a6c0100d07501007a7c0100
+      m_SelectedIDs: ea070900
+      m_LastClickedID: 591850
+      m_ExpandedIDs: ca5df5fff4bdf5ffb8d9f5ffc226f6ffc426f6ff0843f6ff9a96f6ff8698f6ffe29ef6ff66b6f6ff72c3f6ff42fbf6ffcc17f7ff7618f7ff305bf7ffd076f7fff2bff7ff20dff7ff3c46f8ff6049f8ffee62f8ff94b5f8ff96b5f8ff7abef8ff2cc5f8ff98d1f8ff90e0f8ffce19f9fffc28f9ff6e36f9ff8a7cf9fff484f9ff96a4f9ff6ce5f9ffac31faff5847faff924efaff4e8dfaffd095faff30abfaff74b1faff02eafaffd0f2faff02fdfaff940efbff384cfbff724cfbff0a55fbff665afbff1861fbff5670fbff427cfbfff482fbffb2bafbfff6c9fbff1ccffbffced5fbffb4dcfbff4e1efcffdc3dfcffd27efcff129afcff44e0fcffcafffcff8a51fdffc66dfdff66affdff6abefdff0ec5fdff1cc5fdffe4cdfdff72d6fdffbe0ffeffaa26feff5c2dfeffd62ffeffd870feffda70feff688cfeff2894feff66cdfeff16e5feff1ce5feff1ce7feff62e9feff54eafeffbc2fffffce4cffff6693ffff3ab7ffff02fbffff865e01001a6202004e3c0400024b0400649c0400162f06007c840600ba540700c05807003aa60700ecfc0700d6080800fa180800aa1b0800001d0800e6b208003cb40800
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: StartButton
-        m_OriginalName: StartButton
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 91582
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 4}
@@ -568,9 +568,9 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 370.4
+    x: 366.4
     y: 79.200005
-    width: 734
+    width: 738
     height: 496.40002
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1031,7 +1031,7 @@ MonoBehaviour:
       sizeOverridden: 0
     m_ContainerData:
     - containerId: overlay-toolbar__top
-      scrollOffset: 40
+      scrollOffset: 0
     - containerId: overlay-toolbar__left
       scrollOffset: 0
     - containerId: overlay-container--left
@@ -1056,9 +1056,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 9.14, y: 4.3, z: -27.310003}
+    m_Target: {x: -5.9156837, y: 4.2974024, z: 4.8524895}
     speed: 2
-    m_Value: {x: 9.14, y: 4.3, z: -27.310003}
+    m_Value: {x: -5.9156837, y: 4.2974024, z: 4.8524895}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1104,13 +1104,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.22699574, y: 0.23960172, z: -0.0577108, w: 0.94224954}
+    m_Target: {x: 0.089554325, y: 0.7265986, z: -0.096466966, w: 0.6744407}
     speed: 2
-    m_Value: {x: 0.22698432, y: 0.23958966, z: -0.0577079, w: 0.94220215}
+    m_Value: {x: 0.089547984, y: 0.7265472, z: -0.096460134, w: 0.67439294}
   m_Size:
-    m_Target: 4.330131
+    m_Target: 1.3330258
     speed: 2
-    m_Value: 4.330131
+    m_Value: 1.3958385
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1165,9 +1165,9 @@ MonoBehaviour:
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 370.4
+    x: 366.4
     y: 79.200005
-    width: 734
+    width: 738
     height: 496.40002
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1186,7 +1186,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 734, y: 475.40002}
+  m_TargetSize: {x: 738, y: 475.40002}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1201,8 +1201,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -293.6
-    m_HBaseRangeMax: 293.6
+    m_HBaseRangeMin: -295.2
+    m_HBaseRangeMax: 295.2
     m_VBaseRangeMin: -190.16002
     m_VBaseRangeMax: 190.16002
     m_HAllowExceedBaseRangeMin: 1
@@ -1222,23 +1222,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 734
+      width: 738
       height: 475.40002
     m_Scale: {x: 1.25, y: 1.25}
-    m_Translation: {x: 367, y: 237.70001}
+    m_Translation: {x: 369, y: 237.70001}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -293.6
+      x: -295.2
       y: -190.16
-      width: 587.2
+      width: 590.4
       height: 380.32
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 917.5, y: 620.5}
+  m_LastWindowPixelSize: {x: 922.5, y: 620.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
