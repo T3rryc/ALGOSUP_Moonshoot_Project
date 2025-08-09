@@ -27,7 +27,7 @@ public class MicRecorder : MonoBehaviour
         }
     }
 
-
+   // press button to start recording
    public void StartRecording()
     {
         string[] mics = Microphone.devices;
@@ -70,8 +70,77 @@ public class MicRecorder : MonoBehaviour
             Debug.LogError("❌ No microphone available!");
         }
     }
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // press the button to start recording, wait silence and send the record to the API
+    public void StartRecordingWithAutoStop()
+    {
+        string[] mics = Microphone.devices;
+        selectedMicDevice = mics.Length > 0 ? mics[0] : null;
 
+        if (selectedMicDevice == null)
+        {
+            Debug.LogError("❌ No microphone found.");
+            return;
+        }
 
+        recordedClip = Microphone.Start(selectedMicDevice, true, 30, 44100);
+        Debug.Log($"🎙️ Started recording on: {selectedMicDevice}");
+
+        StartCoroutine(WaitForSilence());
+    }
+
+        private IEnumerator WaitForSilence()
+    {
+        float silenceThreshold = 0.01f; // Adjust based on mic sensitivity
+        float silenceDuration = 1.0f;   // Seconds of silence before stopping
+        float silentTime = 0f;
+
+        int sampleWindow = 1024;
+        float[] samples = new float[sampleWindow];
+
+        while (true)
+        {
+            int micPos = Microphone.GetPosition(selectedMicDevice);
+
+            // Avoid invalid sample positions
+            if (micPos < sampleWindow || recordedClip == null)
+            {
+                yield return null;
+                continue;
+            }
+
+            int startPos = Mathf.Clamp(micPos - sampleWindow, 0, recordedClip.samples - sampleWindow);
+            recordedClip.GetData(samples, startPos);
+
+            float maxVolume = 0f;
+            foreach (var sample in samples)
+            {
+                float abs = Mathf.Abs(sample);
+                if (abs > maxVolume) maxVolume = abs;
+            }
+
+            if (maxVolume < silenceThreshold)
+            {
+                silentTime += Time.deltaTime;
+                if (silentTime >= silenceDuration)
+                {
+                    break; // Silence long enough — stop recording
+                }
+            }
+            else
+            {
+                silentTime = 0f; // Reset if sound detected
+            }
+
+            yield return null;
+        }
+
+        StopRecordingAndSend();
+    }
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    // press button 2 to send the record to the API
     public void StopRecordingAndSend()
     {
         if (!Microphone.IsRecording(null))
