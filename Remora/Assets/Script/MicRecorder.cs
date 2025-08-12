@@ -91,8 +91,8 @@ public class MicRecorder : MonoBehaviour
 
         private IEnumerator WaitForSilence()
     {
-        float silenceThreshold = 0.01f; // Adjust based on mic sensitivity
-        float silenceDuration = 1.0f;   // Seconds of silence before stopping
+        float silenceThreshold = 0.015f; // Adjust based on mic sensitivity
+        float silenceDuration = 1.5f;   // Seconds of silence before stopping
         float silentTime = 0f;
 
         int sampleWindow = 1024;
