@@ -24,9 +24,9 @@ public class DialogueManager : MonoBehaviour
 
     void ShowGreeting()
     {
-        state = 1;
-        dialogueText.text = "Hi there! Can I help you with something?";
-        SetChoices("Yes, please", "No, thank you");
+        // state = 1;
+        dialogueText.text = "Push the button to start the conversation, and wait the answer after silence.";
+        // SetChoices("Yes, please", "No, thank you");
     }
 
     void SetChoices(string option1, string option2, string option3 = "")
@@ -142,7 +142,7 @@ public class DialogueManager : MonoBehaviour
         if (goToFarewell)
         {
             state = 3;
-            SetChoices("Ask something else", "End conversation");
+            // SetChoices("Ask something else", "End conversation");
         }
 
         isWaitingForResponse = false;
