@@ -1,0 +1,362 @@
+fileFormatVersion: 2
+guid: 7ef6e23a360d4e84f81d421ab44d98bf
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Defaultwwwewe
+    second: {fileID: 2100000, guid: 340463363f18125458a38049979eb0e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 17 - Defaultwewe
+    second: {fileID: 2100000, guid: 0c53b998219b2bb43b7b4293c11cf103, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #117
+    second: {fileID: 2100000, guid: 1dff3e8afa2fcde498e245e6fd8d06f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #2146797799
+    second: {fileID: 2100000, guid: 0c6bdaf41893a1f4ba8d2156d7ce2764, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #2146797821
+    second: {fileID: 2100000, guid: e0fad2b4685bb5f4cb283a85ef8b83a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #2146797822
+    second: {fileID: 2100000, guid: 3ff2689c99606b541a3bae7d41cc52cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #2146797823
+    second: {fileID: 2100000, guid: 0ae3e7412c59fea4a82c34bb7e3f8912, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #53
+    second: {fileID: 2100000, guid: 6f517ab35a4db4848bff0ea91a0bcbaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: espelho
+    second: {fileID: 2100000, guid: 1e003432bd55b5741b6a0da18f0e2583, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: esquadrias
+    second: {fileID: 2100000, guid: b0c7806119762074e909e79f49645641, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz
+    second: {fileID: 2100000, guid: 3ac28c00e15cb17418f64cc942a86bf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray [Color_005]2
+    second: {fileID: 2100000, guid: 599f8cda263623946b0ee5d3a7e5fc9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray [Color_007]2
+    second: {fileID: 2100000, guid: cf96c628165b63f4891d235d3e6f40e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray gladiator1
+    second: {fileID: 2100000, guid: 089aaac28de9bca4fa64ba82ca2d8882, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray_F_LEAF_1
+    second: {fileID: 2100000, guid: 46f6492af8b843747b9117efc1bc389a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray_Material #2146797764
+    second: {fileID: 2100000, guid: 35b659eed3cc23f4682b9efdfc86fd57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray_Material23
+    second: {fileID: 2100000, guid: 90e7c6a95b101b540bccefe67aa2c85a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray_Material7
+    second: {fileID: 2100000, guid: 4b51833edc231c747989c359d1b7978f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray_Material8
+    second: {fileID: 2100000, guid: b527c0c806715aa49897270cc0381180, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray_Material_004
+    second: {fileID: 2100000, guid: 03bd3c2fb49e70049abf65fa8cda054e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray_Spathaphila
+    second: {fileID: 2100000, guid: 5db0a36fd82741b4789cd42a2b0e0cc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray_fern1_smaller_clean_smaller
+    second: {fileID: 2100000, guid: 92c691f987e0e624f90660fb43a17a5e, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 799f46cbbea295dae197b52a880bb576
+    second: {fileID: 2800000, guid: d4dc6a2cbdab3af4a891f3ac06ce0c4e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 7ddca9b75b100bc2e478e515bc537773
+    second: {fileID: 2800000, guid: a870d604bc0310f41823bd61fbfdf48e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: F_LEAF_1
+    second: {fileID: 2800000, guid: 55c859e2b027c7f4790e6f37ab91dd2d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Material15_extractedTex
+    second: {fileID: 2800000, guid: bcd2e472661c6ee4db63f05c0afa5967, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Material7_extractedTex
+    second: {fileID: 2800000, guid: 55e26e359f24eb749a8f7069dd13d204, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Material8_extractedTex
+    second: {fileID: 2800000, guid: 888dc682700733e4d9f8d006784645de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PAREDEVRayTotalLightingMap
+    second: {fileID: 2800000, guid: 9d381903a802ce247a45f12092d90b3f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PISOVRayTotalLightingMap
+    second: {fileID: 2800000, guid: bf64e2083f5f4814bbee5fca8259c134, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Spathaphila_extractedTex
+    second: {fileID: 2800000, guid: dc115efe8ed110b49b21b4ddd98d8a82, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TETOVRayTotalLightingMap
+    second: {fileID: 2800000, guid: 2be3c300eea4c7040a6f2a028f66e3cd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Brick_Medieval2_1K_albedo
+    second: {fileID: 2800000, guid: a5dafbc5bf9c6bc4eae35c73f9d15339, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Brick_Medieval2_1K_normal
+    second: {fileID: 2800000, guid: 640272d233dc9894e910dd695feff1a3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Brick_Medieval2_1K_roughness
+    second: {fileID: 2800000, guid: 5f3b311580f761b4b936d75712a71d7b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: adesivo-de-parede-papel-parede-madeira-creme-madeira-marron
+    second: {fileID: 2800000, guid: 0829f9e63d2b8204397ba7a569bcb089, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: concreto-azul
+    second: {fileID: 2800000, guid: 46f962e4afa0a8b4aa30020d100191d3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: dirt_texture_by_prototstar
+    second: {fileID: 2800000, guid: f0bed658b3ea05b45a596578fe765446, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: dirt_texture_by_prototstar12
+    second: {fileID: 2800000, guid: 354dfe3f7602b2a42be68eb3e50c7989, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: fern1_smaller_clean_nt
+    second: {fileID: 2800000, guid: 70c23e0a0c67df14fae82b582a7b8df7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: imgonline-com-ua-TextureSeamless-LcvFg11V3WsI
+    second: {fileID: 2800000, guid: 9734f77c594288c4d9b6b4a819935da6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: imgonline-com-ua-TextureSeamless-XvFpBtJqvXUiLl
+    second: {fileID: 2800000, guid: cedf5641df15d784ab9440aeb4d25041, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: imgonline-com-ua-TextureSeamless-vEgndfx7ElfbDTHX
+    second: {fileID: 2800000, guid: a84a01d0972ab1c4bb5fd30e2aa62ae2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: imgonline-com-ua-TextureSeamless-vcDc05UyRf96
+    second: {fileID: 2800000, guid: c55ea69dfb2f66d43a62c10fd5d5f37d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: large_simple_leaf_5160225612
+    second: {fileID: 2800000, guid: 0f32258935c1a034d9c09352a0ad1a7d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: large_simple_leaf_516022561258
+    second: {fileID: 2800000, guid: b049250bd00812440a83e738c3b9d37c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: large_simple_leaf_51602256refl
+    second: {fileID: 2800000, guid: 4650b16349a564b4089fb0dce21c9300, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: quadro-decorativo-aloha-beaches-abacaxi
+    second: {fileID: 2800000, guid: a0d8e5fa8fa110c41952725f0dc11870, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: quadro-decorativo-elefantes
+    second: {fileID: 2800000, guid: 75371d2ccda8ed14bbe80835e3b7f79b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: quadro-decorativo-galo-aquarela-moldura-preta
+    second: {fileID: 2800000, guid: 321dff75b829d9745b625d47d1847c8e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: quadro-decorativo-garrafa-e-taca-de-vinhos-geometricos-e-coloridos-moldura-preta
+    second: {fileID: 2800000, guid: 21d71706ed5bb9d47b15e184d6547bdf, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
