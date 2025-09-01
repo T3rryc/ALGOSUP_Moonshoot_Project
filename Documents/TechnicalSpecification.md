@@ -545,8 +545,88 @@ request.SetRequestHeader("Authorization", $"Bearer {apiKey}");
 ```
 A local daily rate limiter can be added to restrict overuse (see RateLimiter.cs in other parts of the system). The certificate bypass should be disabled in production builds.
 
+## UI / Scene Management / Prompt Handling
 
+### Scene Transitions
+- Implement smooth transitions between different VR scenes (e.g., store, café, train station).
+- Use Unity's SceneManager for loading and unloading scenes.
 
+```csharp
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class SceneController : MonoBehaviour
+{
+    public void LoadScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+        Debug.Log("Game Quit"); // Works only in build
+    }
+}
+```
+
+### Scene Reset
+- Implement a mechanism to reset the current scene, allowing users to restart interactions without returning to the main menu.
+- Use SceneManager.LoadScene with the current scene name to reload it.
+
+```csharp
+    public void ResetScene()
+    {
+        // Get the current scene and reload it
+        Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(currentScene.name);
+    }
+```
+
+### VR Checker
+- Implement a VRChecker class to ensure the user is in a VR environment before allowing certain interactions.
+- Use Unity's XR API to check for VR device presence.
+
+```csharp
+     void Start()
+    {
+        if (XRSettings.isDeviceActive)
+        {
+            // Headset is connected
+            vrRig.SetActive(true);
+            nonVrRig.SetActive(false);
+        }
+        else
+        {
+            // No headset found
+            vrRig.SetActive(false);
+            nonVrRig.SetActive(true);
+        }
+    }
+```
+
+### Prompt Handling
+
+- Implement a system for handling user prompts and responses within the VR environment.
+- Use a combination of voice recognition and button inputs to capture user intent.
+- Send user prompts to the ChatGPT API for processing and receive responses for NPC interactions.
+
+```csharp
+  public static string GetPrompt(string sceneName)
+    {
+        switch (sceneName)
+        {
+            case "MiniMarket":
+                return Shopkeeper;
+            case "Café":
+                return Cafe;
+            case "TrainStation":
+                return TrainStation;
+            default:
+                return Shopkeeper; // fallback
+        }
+    }
+```
 
 ## Security
 A local rate-limiting mechanism enforces a daily cap on API queries to prevent abuse of the shared key.

@@ -51,10 +51,20 @@ Name: VR Store Scene
 Description: A simple, stylized virtual store containing product shelves, signage, and walkable space with locomotion or teleportation support.
 Status: Implemented ✅
 
-### 3.2 Shopkeeper NPC
+Name: VR Café Scene
+Description: A cozy virtual café with tables, chairs, and ambient sounds. Users can interact with a barista NPC to order drinks or have casual conversations.
+
+Name: VR Train Station Scene
+Description: A bustling virtual train station with platforms, waiting areas, and ticket clerks. Users can interact with a ticket clerk NPC to inquire about train schedules or purchase tickets.
+
+Name: VR Main Menu Scene
+Description: The initial menu interface for the VR experience, allowing users to select different scenarios and exit.
+
+### 3.2 NPC
 
 Name: AI-Powered NPC
 Description: A stationary humanoid character representing a shopkeeper. NPC responds to user questions using voice and text bubbles.
+Each Scene has its own dedicated NPC with unique dialogue and interactions.
 Status: Implemented ✅
 
 ### 3.3 Chat-Based Dialogue System
@@ -95,6 +105,26 @@ Name: Listening Indicator
 Description: A UI element (e.g. an icon or animation) indicates when the system is recording or waiting for a response.
 Status: Implemented ✅
 
+Name: Scene Button
+Description: A UI button that allows users to switch between different VR scenes (e.g., store, café, train station).
+Status: Implemented ✅
+
+Name: Quit Button
+Description: A UI button that allows users to exit the VR experience.
+Status: Implemented ✅
+
+Name: Reset Button
+Description: A UI button that allows users to reset the current interaction or scene.
+Status: Implemented ✅
+
+Name: Microphone Button
+Description: A UI button that allows users to start/stop voice input.
+Recording is automatically stopped after a short delay of silence.
+Status: Implemented ✅
+
+### 3.8 None-VR Mode
+Description: A simplified interface for users without VR hardware, allowing interaction via keyboard and mouse.
+Status: Implemented ✅
 
 ## Non-Functional Requirements
 

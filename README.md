@@ -51,3 +51,63 @@ Build verbal confidence in a safe, low-pressure space
 
 Unlike tools that require scripting or pre-recorded responses, all interactions are dynamically generated, meaning the NPC can answer flexibly and contextually like a real person.
 
+### Project Building 
+##  Requirements
+
+- **Unity Editor**: 2022.3 LTS (recommended)  
+- **Unity Hub** (to manage versions & modules)  
+- **Visual Studio 2019/2022** with:
+  - `.NET Desktop Development`
+  - `Desktop Development with C++`
+  - `Game Development with Unity`
+- **Windows SDK** (≥ 10.0.19041.0)  
+- **Git LFS** (if cloning from repo with large assets)  
+- (Optional) VR Headset with OpenXR support (Quest/Quest 2/Pro, or SteamVR devices) 
+
+## Environment Variables
+
+Create a .env file in the root of the Remora folder with the following content:
+
+    
+    OPENAI_KEY=<YOUR API KEY>
+
+On the scene MiniMarket.scene, Café.scene and TrainStation.scene, add your API key on the Inspector to
+- OpenAIChat Object
+- AIDebugger Object
+- NPC Object
+- MicrophoneController Object
+
+Now you can run the project in the Unity Editor.
+
+To build the project for deployment, go to File > Build Settings and select your target platform (e.g., Android for Meta Quest 2). Then click Build and Run.
+Make sure to set the scene in build profiles --> scenes list, the first scene should be MainMenu.scene.
+
+## Run VR Headset
+   Requirements:
+  - Meta Quest Link
+  - Oculus App (for Quest 2)
+  - USB-C cable (for wired connection)
+  - VR Headset (e.g., Meta Quest 2)
+  - Meta account 
+  
+To connect the VR to unity and the .exe files
+- Connect to your Meta profile
+- Make sure Meta Quest Link is enabled
+- Enable Link in the Meta interface (A pop-up should appear to enable it otherwise, go to quick settings, a Button "Enable Link" should be visible, enable it and access to Unity and the .exe files)
+- Run the editor or the .exe files from the PC.
+- The VR headset should now be connected and ready for use.
+
+Important Notes:
+- Always ensure your VR headset is updated to the latest firmware.
+- Make sure to connect both devices on the same network (5 GHz recommended).
+- To Run Meta Quest 2 in Unity, You need to meet the minimum system requirements for VR.
+
+| Minimum      | Recommended  |
+| ----------- | ----------- |
+| Processor - Intel i5-4590 / AMD Ryzen 5 1500X or greater|Processor - Intel i7/ AMD ryzen 7|
+|NVIDIA GeForce GTX 970 / AMD Radeon 400 Series or greater*|Graphics Card - Nvidia RTX 20 Series / AMD Radeon RX 6000 Series|
+|8GB RAM|16GB RAM DDR4|
+|Windows 10,11|Windows 10,11|
+|USB - Ports 1x USB port| USB - Ports 1x USB-C port|
+
+* Check the list of graphics card compatibility to see the supported models on the [Meta Quest Website](https://www.meta.com/fr-fr/help/quest/140991407990979/?srsltid=AfmBOopBfN8S8Djd7y785RgtCMj0i_9Pv7tlW69iv4HjaMI75nKA4xzu)  
