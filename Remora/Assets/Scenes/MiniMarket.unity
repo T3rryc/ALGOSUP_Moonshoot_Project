@@ -12421,7 +12421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openAIKey: 
-  userPrompt: Where are the drinks?
+  userPrompt: 
   latestResponse: 
 --- !u!4 &1130484774
 Transform:
