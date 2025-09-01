@@ -25,7 +25,7 @@ public class DialogueManager : MonoBehaviour
     void ShowGreeting()
     {
         // state = 1;
-        dialogueText.text = "Push the button to start the conversation, and wait the answer after silence.";
+        //dialogueText.text = "Push the button to start the conversation, and wait the answer after silence.";
         // SetChoices("Yes, please", "No, thank you");
     }
 
