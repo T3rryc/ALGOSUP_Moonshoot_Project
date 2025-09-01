@@ -8,7 +8,7 @@ public static class PromptLibrary
         {
             case "MiniMarket":
                 return Shopkeeper;
-            case "Cafe":
+            case "Café":
                 return Cafe;
             case "TrainStation":
                 return TrainStation;

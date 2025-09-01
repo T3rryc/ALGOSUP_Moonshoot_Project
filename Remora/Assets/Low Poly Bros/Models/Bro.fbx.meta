@@ -1,7 +1,14 @@
 fileFormatVersion: 2
 guid: fadead254b8bb1b4e9406290a47642e6
+AssetOrigin:
+  serializedVersion: 1
+  productId: 267317
+  packageName: Low Poly Modular Characters
+  packageVersion: 1.0
+  assetPath: Assets/Low Poly Bros/Models/Bro.fbx
+  uploadId: 630860
 ModelImporter:
-  serializedVersion: 21300
+  serializedVersion: 22200
   internalIDToNameTable: []
   externalObjects:
   - first:
@@ -20,10 +27,10 @@ ModelImporter:
       name: Hair
     second: {fileID: 2100000, guid: bd0fdba637f02ff45aea14a58353b540, type: 2}
   materials:
-    materialImportMode: 2
+    materialImportMode: 1
     materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -31,8 +38,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 1
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -55,6 +60,7 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -82,6 +88,7 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -381,8 +388,7 @@ ModelImporter:
     - name: Hips
       parentName: Armature
       position: {x: -0.012760467, y: 5.8651085, z: -0.027504412}
-      rotation: {x: -0.000000018329033, y: 0.00000040879522, z: 0.000000090785264,
-        w: 1}
+      rotation: {x: -0.000000018329033, y: 0.00000040879522, z: 0.000000090785264, w: 1}
       scale: {x: 1, y: 1, z: 0.99999994}
     - name: Spine
       parentName: Hips
@@ -602,8 +608,7 @@ ModelImporter:
     - name: LeftToe_End
       parentName: LeftToeBase
       position: {x: -0.00000005483627, y: 0.38484618, z: 0.000000014305114}
-      rotation: {x: -0.00000020861623, y: -0.000000119209275, z: 0.00000009685753,
-        w: 1}
+      rotation: {x: -0.00000020861623, y: -0.000000119209275, z: 0.00000009685753, w: 1}
       scale: {x: 0.9999986, y: 0.99999994, z: 0.99999815}
     - name: RightUpLeg
       parentName: Hips
@@ -753,15 +758,9 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 0
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 267317
-  packageName: Low Poly Modular Characters
-  packageVersion: 1.0
-  assetPath: Assets/Low Poly Bros/Models/Bro.fbx
-  uploadId: 630860
